@@ -1,0 +1,10 @@
+Rainbow appears in the sky at the end of the rain. It is a long and wide band of seven colours. It forms a semi-circle going from one end of the earth to the other. 
+Scientists say that when sunlight passes through a thin medium to a denser medium, all the seven colours which are present in the white light form a semi-circular rainbow. 
+The seven colours are violet, indigo, blue, green, yellow, orange and red. People believe that if a rainbow appears after the rain, it is an indication that there will be no more rains. 
+In Hindi, rainbow is called ‘Indra Dhanush’ which means the Bow of Lord Indra. According to Hindu mythology Lord Indra is the god of rain. 
+The rainbow looks miraculously beautiful. Its sight is very soothing to the eye. Small children get very excited when they see a rainbow.
+
+--type vim rainbow.txt and press enter
+--press i to enter insert mode in vim editor
+--copy this paragraph in the editor and press ecs to exit insert mode and type :wq to exit with saving the file
+--now type grep|egrep|fgrep -i "pattern you want to search" rainbow.txt and press enter.
