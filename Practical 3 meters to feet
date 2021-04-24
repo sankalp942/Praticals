@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner input= new Scanner(System.in);
+        System.out.print("Enter your number you want to convert: ");
+        double m= input.nextDouble();
+        double f= m*3.281;
+        System.out.println("Feet: "+f+"ft");
+    }
+}
