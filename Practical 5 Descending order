@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter your numbers here : ");
+        int a,b,c;
+        System.out.print("a: ");
+        a= input.nextInt();
+        System.out.print("b: ");
+        b=input.nextInt();
+        System.out.print("c: ");
+        c=input.nextInt();
+        if((a>b)&&(b>c)){
+            System.out.println("Descending order will be :"+a+" "+b+" "+c);
+        }
+        else if((a<b)&&(b<c)){
+            System.out.println("Descending order will be :"+c+" "+b+" "+a);
+        }
+        else if(((a>b)&&(b<c))&&(a<c)){
+            System.out.println("Descending order will be :"+c+" "+a+" "+b);
+        }
+        else if((a>b)&&(b<c)){
+            System.out.println("Descending order will be :"+a+" "+c+" "+b);
+        }
+        else if(((a<b)&&(b>c))&&(b>c)){
+            System.out.println("Descending order will be :"+b+" "+c+" "+a);
+        }
+        else {
+            System.out.println("invalid input");
+        }
+    }
+}
