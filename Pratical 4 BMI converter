@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner input= new Scanner(System.in);
+        System.out.print("Enter your mass in pound's here: ");
+        double lb= input.nextDouble();
+        System.out.print("Enter your height in feet here: ");
+        double inch= input.nextDouble();
+        double m= lb*0.45359237;
+        double h= inch*0.0254;
+        double bmi=m/(h)*(h);
+        System.out.println("BMI is : "+bmi);
+    }
+}
